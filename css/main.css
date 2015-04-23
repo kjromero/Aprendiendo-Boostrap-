@@ -1,0 +1,468 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.navbar-default{
+    background-color: transparent;
+    border-bottom: none;
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    line-height: 41px;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #fff;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    background-color: transparent;
+    border-bottom: solid 3px #fff;
+    color: #fff;
+}
+
+.navbar {
+    min-height: 80px;
+
+}
+.navbar-nav > li >a {
+    line-height: 5px;
+    padding-top: 37px;
+}
+
+
+
+/*** destacada**/
+
+section.destacada{
+    position:relative;
+}
+
+section.destacada .contenido{
+    top:48%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+}
+
+section.destacada .contenido h1{
+    padding: 20px 100px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 60%;
+}
+
+div.pattern{
+    background-image: url(../img/pattern.png);
+    position: absolute;
+    opacity: .9;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10%;
+}
+
+/**** AGENCIA **/
+
+h2{
+    color: #787878;
+    font-size: 2.9em;
+    margin-bottom: 30px;
+}
+
+h2.blanco{
+    color: #fff;
+}
+section.agencia {
+    background-color: #ebeeed;
+    padding: 10px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+section.borde{
+    padding: 50px 0;
+}
+
+section.agencia .borde{
+    border: 1px solid #aeb4b7;
+}
+
+section.agencia p {
+    font-size: 1.5em;
+}
+
+
+/*** Aplicaciones ***/
+
+
+section.aplicaciones {
+    padding: 30px 0 0 0;
+}
+
+section.aplicaciones p{
+    line-height: 38px;
+    font-size: 1.6em;
+    color:#4e4e4e;
+}
+
+/** servicios **/
+
+.servicios {
+    background-color: #ebeeed;
+    border-top: 1px solid #c2c2c2;
+}
+
+.servicios h2 span{
+    font-size: .6em;
+    font-style: italic; 
+}
+
+/*** contact **/
+
+section.contacto{
+    background-color: #4f5962;
+    color: #fff;
+    padding: 10px;
+}
+
+section.contacto .borde{
+    border:1px solid #697279;
+}
+
+section.contacto p{
+    margin-bottom: 25px;
+}
+
+section.contacto .btn-default{
+    background-color: #67727c;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section.contacto .btn-lg{
+    padding: 10px 46px;
+}
+
+/*** footer **/ 
+
+footer{
+    background-color: #2d3235;
+    padding: 30px; 
+}
+
+footer hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #595d60;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+footer a,
+footer a:hover{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+
+}
+
+footer .nav > li >a:hover,  
+footer .nav > li >a:focus{
+    background-color: transparent;;
+}
+
+/**  NOSOTROS **/
+
+.informacion{
+    padding: 30px 0;
+}
+.panel-heading,
+.panel-group .panel{
+    border-radius: 0;
+}
+
+.panel-default > .panel-heading{
+    background-color: #4f5962;
+}
+
+.panel-title > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.panelgroup .panel + .panel {
+    margin-top: 0;
+}
+
+.panel-body{
+    color: #4e4e4e;
+}
+
+.activo, .activo a{
+    color: #787878 !important;
+    background-color: #ebeeed !important;
+}
+
+/** SERVICIOS **/
+
+.modal-body p{
+    line-height: 40px;
+    font-size: 14px;
+}
+
+/** EQUIPO DE TRABAJO **/
+
+.equipo{
+    background-color: #ededed;
+    margin-bottom: 2px;
+}
+
+.equipo p{
+    margin-bottom: 20px;
+}
+
+.equipo small{
+    margin-bottom: 20px;
+    display: block;
+}
+
+.equipo p.nombre{
+    font-size: 1.2em;
+}
+
+.equipo p.descripcion{
+    font-size: .9em;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+}
+
+div.sociales{
+    background-color: #ededed;
+    padding: 10px 10px 10px 60px;
+    margin-bottom: 3px;
+}
+
+div.sociales ul.sociales{
+    margin-top: 10px;
+
+}
+
+div.sociales ul.sociales li a{
+    font-size: 0;
+    background-image: url(../img/sociales.svg);
+    background-repeat: no-repeat;
+    padding: 13px 17px;
+}
+
+div.sociales a[href="http://facebook.com"]{
+    background-position: 0px -47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
